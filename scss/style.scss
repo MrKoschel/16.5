@@ -1,0 +1,59 @@
+* {
+    text-align: center;
+    color: #ffffff;
+    font-family: "Playfair Display", serif;
+    font-weight: 300;
+}
+
+body {
+    background-color: #55acee;
+}
+
+header {
+    margin-top: 50px;
+    font-size: 25px;
+}
+
+div {
+    .quote {
+        margin-bottom: 30px;
+    }
+
+    button {
+        background-color: #55acee;
+        padding: 5px 0;
+        width: 400px;
+        font-size: 20px;
+        border-color: white;
+        border-width: 1px;
+        border-style: solid;
+        border-radius: 5px;
+
+        &:hover {
+            background-color: white;
+            color: #55acee;
+            cursor: pointer;
+        }
+
+        &:hover > i {
+            background-color: white;
+            color: #55acee;
+            cursor: pointer;
+        }
+
+        &:focus {
+            outline: none;
+        }
+    }
+
+    .trigger {
+        margin: 75px 0 25px 0;
+    }
+
+    .tweet_button {
+
+        .tweet {
+            text-decoration: none;
+        }
+    }
+}
